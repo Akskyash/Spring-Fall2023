@@ -1,0 +1,34 @@
+File Management
+---------------------
+pwd	present working directory
+ls	list the contents of a directory
+touch	create a file
+mkdir	create a directory
+cd	change directory
+cp	copy
+mv	move/rename
+rm	remove	(to remove a directory forcefully use option: rm -rf directory_name)
+
+Popular CLI Based text Editors: vi, vim, nano etc.
+To insert into vi editor: press i	(i for insert)
+To save and exit from vi editor: press Esc + : + wq!
+
+To read the content of a file:
+cat
+less
+more
+
+Permission Managment
+-----------------------------
+chmod	changes file/directory permission
+chown	changes file/directory ownership
+
+Use option -R for recursive
+
+User and Group Management
+------------------------------------
+/etc/passwd	This is where all user information is being stored	
+/etc/shadow	This is where all user password is being stored encrypted
+/etc/group	This is where all group information is being stored
+
+whoami	To view which user you are logged in
